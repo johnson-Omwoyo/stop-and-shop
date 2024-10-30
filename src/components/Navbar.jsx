@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Modal, Button, Carousel } from "react-bootstrap";
+import { Modal, Button, Carousel, NavLink } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./Navbar.css"; // Import the Navbar-specific CSS
@@ -54,24 +54,24 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <a className="nav-link" href="/">
+            <NavLink className="nav-link" to={"/"}>
               Home
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/collection">
+            <NavLink className="nav-link" to={"/collection"}>
               Collection
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <NavLink className="nav-link" to={"/about"}>
               About Us
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">
+            <NavLink className="nav-link" to={"/contact"}>
               Contact
-            </a>
+            </NavLink>
           </li>
         </ul>
         <button
