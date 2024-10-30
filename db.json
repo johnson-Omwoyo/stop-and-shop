@@ -1,0 +1,76 @@
+{
+  "dresses": [
+    {
+      "id": 1,
+      "name": "Floral Maxi Dress",
+      "img": "dresses/background-remover/WhatsApp Image 2024-10-29 at 17.55.45.png",
+      "hoverImg": "dresses/background-remover/WhatsApp Image 2024-10-29 at 17.55.45 (1).png",
+      "price": "$99",
+      "description": "A beautiful floral dress perfect for summer."
+    },
+    {
+      "id": 2,
+      "name": "Casual Summer Dress",
+      "img": "dresses/WhatsApp Image 2024-10-29 at 17.55.42 (1).png",
+      "hoverImg": "dresses/WhatsApp_Image_2024-10-29_at_17.55.43-removebg-preview.png",
+      "price": "$89",
+      "description": "Casual and comfortable for everyday wear."
+    },
+    {
+      "id": 3,
+      "name": "Elegant Evening Dress",
+      "img": "dresses/background-remover/WhatsApp Image 2024-10-29 at 17.55.44.png",
+      "hoverImg": "dresses/background-remover/WhatsApp Image 2024-10-29 at 17.55.44.png",
+      "price": "$149",
+      "description": "Perfect for a glamorous night out."
+    },
+    {
+      "id": 4,
+      "name": "Sunshine Yellow Dress",
+      "img": "dresses/background-remover/WhatsApp Image 2024-10-29 at 17.55.47.png",
+      "hoverImg": "dresses/background-remover/WhatsApp Image 2024-10-29 at 17.55.47 (1).png",
+      "price": "$79",
+      "description": "Bright and cheerful for sunny days."
+    },
+    {
+      "id": 5,
+      "name": "Classic White Dress",
+      "img": "dresses/background-remover/WhatsApp Image 2024-10-29 at 17.55.47 (2).png",
+      "hoverImg": "dresses/background-remover/WhatsApp Image 2024-10-29 at 17.55.47 (3).png",
+      "price": "$119",
+      "description": "Timeless elegance in white."
+    },
+    {
+      "id": 6,
+      "name": "Beach Vibes Dress",
+      "img": "dresses/background-remover/WhatsApp Image 2024-10-29 at 17.55.48.png",
+      "hoverImg": "dresses/background-remover (2)/WhatsApp Image 2024-10-29 at 17.55.48 (1).png",
+      "price": "$69",
+      "description": "Perfect for seaside strolls."
+    },
+    {
+      "id": 7,
+      "name": "Romantic Lace Dress",
+      "img": "dresses/background-remover (2)/WhatsApp Image 2024-10-29 at 17.55.48 (2).png",
+      "hoverImg": "dresses/background-remover (2)/WhatsApp Image 2024-10-29 at 17.55.49.png",
+      "price": "$129",
+      "description": "Lace details for a romantic look."
+    },
+    {
+      "id": 8,
+      "name": "Bohemian Maxi Dress",
+      "img": "dresses/background-remover (2)/WhatsApp Image 2024-10-29 at 17.55.49 (1).png",
+      "hoverImg": "dresses/background-remover (2)/WhatsApp Image 2024-10-29 at 17.55.50.png",
+      "price": "$109",
+      "description": "Free-spirited boho vibes."
+    },
+    {
+      "id": 9,
+      "name": "Chic Black Dress",
+      "img": "dresses/background-remover (2)/WhatsApp Image 2024-10-29 at 17.55.50 (1).png",
+      "hoverImg": "dresses/background-remover (2)/WhatsApp Image 2024-10-29 at 17.55.50 (2).png",
+      "price": "$139",
+      "description": "Sophisticated and versatile."
+    }
+  ]
+}

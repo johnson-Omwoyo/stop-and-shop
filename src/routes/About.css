@@ -1,0 +1,46 @@
+.about-container {
+    padding: 2rem;
+    font-family: 'Arial', sans-serif; /* Modern font choice */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    color: #ff4500; /* Warm color for emphasis */
+    font-size: 2.5rem; /* Larger size for emphasis */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+h4.section-title {
+    color: #20c997; /* Fresh green for section headers */
+    font-size: 1.75rem; /* Slightly larger for section headers */
+    margin-bottom: 1rem; /* Spacing below headers */
+}
+
+.about-description {
+    color: #555; /* Softer color for readability */
+    line-height: 1.8; /* Improved line height for readability */
+    font-size: 1.2rem; /* Slightly larger text for better readability */
+    margin-bottom: 1.5rem; /* Spacing for separation */
+}
+
+.about-image {
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for images */
+    transition: transform 0.3s; /* Smooth image transition */
+}
+
+.about-image:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.values-list li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem; /* Slightly larger text for list items */
+    color: #333; /* Darker color for list items */
+}
+
+.text-center {
+    margin-bottom: 1.5rem; /* More spacing for better separation */
+}

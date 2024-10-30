@@ -1,0 +1,132 @@
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.card-title {
+  color: #ff4500;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-primary {
+  background-color: #20c997;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #17a2b8;
+}
+
+.modal-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.modal-body img {
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.modal-body img.zoom-on-hover:hover {
+  transform: scale(1.1);
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Added shadow on hover */
+}
+
+.card-img-top {
+  height: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  transition: all 0.3s ease; /* Smooth image transition */
+}
+
+.card-title {
+  color: #ff4500; /* Matching the theme */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-primary {
+  background-color: #20c997;
+  border: none;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.btn-primary:hover {
+  background-color: #17a2b8;
+}
+
+.modal-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.modal-body img {
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease; /* Smooth zoom transition */
+}
+
+.modal-body img.zoom-on-hover:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.modal-header {
+  border-bottom: none; /* Remove border for a cleaner look */
+}
+
+.modal-footer {
+  border-top: none; /* Remove border for a cleaner look */
+}
+
+@media (max-width: 768px) {
+  .modal-body img {
+    max-height: 300px; /* Adjust image size for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-body img {
+    max-height: 300px;
+  }
+}

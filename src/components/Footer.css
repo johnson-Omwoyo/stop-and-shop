@@ -1,0 +1,38 @@
+/* Footer.css */
+.footer {
+  background-color: #fffacd; /* Lemon chiffon - tying in with the navbar */
+  color: #ff4500; /* Orange-Red */
+  padding: 40px 0; /* More padding for a spacious look */
+}
+
+.footer h5 {
+  font-weight: bold;
+  color: #ff4500;
+  margin-bottom: 15px; /* Add margin for spacing */
+}
+
+.footer p {
+  color: #ff4500;
+  margin-bottom: 10px; /* Consistent spacing for paragraphs */
+}
+
+.footer-link {
+  color: #ff4500 !important;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #ff6347; /* Lighter red on hover */
+}
+
+.footer .list-inline-item {
+  margin: 0 10px; /* Equal spacing between links */
+}
+
+@media (max-width: 768px) {
+  .footer h5 {
+    margin-top: 20px; /* Add margin on mobile for clarity */
+  }
+}

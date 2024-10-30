@@ -1,0 +1,75 @@
+.hero-carousel .carousel-item {
+  height: 70vh; /* Increased height for more impact */
+}
+
+.hero-content {
+  position: relative; /* For absolute positioning of text */
+  height: 100%; /* Full height for the item */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the area */
+  filter: brightness(0.5) blur(2px); /* Darken and blur image for text readability */
+}
+
+.hero-text {
+  position: absolute; /* Positioning the text over the image */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  padding: 20px;
+  backdrop-filter: blur(5px); /* Blur effect for depth */
+  border-radius: 10px; /* Rounded corners */
+}
+
+h1 {
+  font-size: 3.5rem; /* Emphasized font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
+}
+
+h2 {
+  color: #ff4500; /* Theme color */
+  font-weight: bold; /* Bold for emphasis */
+  font-size: 2.5rem; /* Larger heading */
+}
+
+.btn-primary {
+  background-color: #20c997; /* Summery green */
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary:hover {
+  background-color: #17a2b8; /* Bright turquoise on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.card {
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s; /* Smooth scaling */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card-title {
+  color: #ff4500; /* Title color */
+  font-weight: bold; /* Bold title */
+}
+
+.card-price {
+  font-size: 1.25rem; /* Larger price text */
+  color: #20c997; /* Summery green */
+}
+
+.card-text {
+  font-size: 1rem; /* Standard text size */
+  color: #555; /* Softer color for description */
+}
